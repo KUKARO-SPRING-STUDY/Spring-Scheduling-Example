@@ -7,9 +7,9 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Slf4j
-public class Test {
+public class Tes2 {
     @Scheduled(fixedDelay = 1000)
     public void scheduledFixedDelay() throws IllegalAccessException {
-        log.info("Test");
+        log.info("Test2");
     }
 }
